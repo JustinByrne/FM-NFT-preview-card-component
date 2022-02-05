@@ -474,3 +474,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: hsl(217 54% 11% / var(--tw-bg-opacity));
 }
+
+.bg-blue-card-bg{
+  --tw-bg-opacity: 1;
+  background-color: hsl(216 50% 16% / var(--tw-bg-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-cyan-fm{
+  --tw-text-opacity: 1;
+  color: hsl(178 100% 50% / var(--tw-text-opacity));
+}
+
+.text-blue-soft{
+  --tw-text-opacity: 1;
+  color: hsl(215 51% 70% / var(--tw-text-opacity));
+}
