@@ -469,3 +469,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.bg-blue-main-bg{
+  --tw-bg-opacity: 1;
+  background-color: hsl(217 54% 11% / var(--tw-bg-opacity));
+}
