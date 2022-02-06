@@ -15,25 +15,51 @@
   </head>
 
   <body class="bg-blue-main-bg">
-    <main class="bg-blue-card-bg">
-      <img src="./src/images/image-equilibrium.jpg" />
-      <h1 class="text-white">Equilibrium #3429</h1>
+    <div class="grid h-screen place-content-center">
+      <main class="bg-blue-card-bg rounded-2xl p-6">
+        <img
+          class="mb-6 max-w-xs rounded-3xl"
+          src="./src/images/image-equilibrium.jpg"
+        />
+        <h1 class="mb-5 text-xl font-semibold text-white">Equilibrium #3429</h1>
 
-      <p class="text-blue-soft">
-        Our Equilibrium collection promotes balance and calm.
-      </p>
+        <p class="text-blue-soft mb-5 text-lg font-light">
+          Our Equilibrium collection promotes<br />
+          balance and calm.
+        </p>
 
-      <p class="text-blue-soft">
-        <span class="text-cyan-fm"
-          ><img src="./src/images/icon-ethereum.svg" />0.041 ET</span
-        >
-        <span><img src="./src/images/icon-clock.svg" />3 days left</span>
-      </p>
+        <div class="text-blue-soft grid grid-cols-2">
+          <div class="text-cyan-fm flex items-center space-x-1">
+            <div>
+              <img src="./src/images/icon-ethereum.svg" />
+            </div>
+            <span class="font-semibold">0.041 ETH</span>
+          </div>
+          <div class="flex items-center justify-end space-x-1">
+            <div>
+              <img src="./src/images/icon-clock.svg" />
+            </div>
+            <div>3 days left</div>
+          </div>
+        </div>
 
-      <p class="text-blue-soft">
-        <img src="./src/images/image-avatar.png" />Creation of
-        <span class="text-white">Jules Wyvern</span>
-      </p>
-    </main>
+        <div class="my-4">
+          <hr class="border-blue-line" />
+        </div>
+
+        <div class="text-blue-soft flex items-center space-x-4">
+          <div>
+            <img
+              class="h-9 rounded-full border-2 border-white"
+              src="./src/images/image-avatar.png"
+            />
+          </div>
+          <div>
+            Creation of
+            <span class="text-white">Jules Wyvern</span>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
