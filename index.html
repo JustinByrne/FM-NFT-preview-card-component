@@ -17,11 +17,21 @@
   <body class="bg-blue-main-bg">
     <div class="grid h-screen place-content-center">
       <main class="bg-blue-card-bg rounded-2xl p-6">
-        <img
-          class="mb-6 max-w-xs rounded-3xl"
-          src="./src/images/image-equilibrium.jpg"
-        />
-        <h1 class="mb-5 text-xl font-semibold text-white">Equilibrium #3429</h1>
+        <div
+          class="group relative mb-6 cursor-pointer overflow-hidden rounded-3xl"
+        >
+          <img class="max-w-xs" src="./src/images/image-equilibrium.jpg" />
+          <div
+            class="bg-cyan-fm/50 absolute inset-0 grid place-content-center opacity-0 transition-opacity duration-100 group-hover:opacity-100"
+          >
+            <img src="./src/images/icon-view.svg" />
+          </div>
+        </div>
+        <h1
+          class="hover:text-cyan-fm mb-5 cursor-pointer text-xl font-semibold text-white"
+        >
+          Equilibrium #3429
+        </h1>
 
         <p class="text-blue-soft mb-5 text-lg font-light">
           Our Equilibrium collection promotes<br />
@@ -56,7 +66,9 @@
           </div>
           <div>
             Creation of
-            <span class="text-white">Jules Wyvern</span>
+            <span class="hover:text-cyan-fm cursor-pointer text-white"
+              >Jules Wyvern</span
+            >
           </div>
         </div>
       </main>
